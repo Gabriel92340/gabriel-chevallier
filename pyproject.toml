@@ -7,10 +7,14 @@ authors = [
     { name = "g-chevallier-ece", email = "gabriel.chevallier@edu.ece.fr" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faker>=40.37.0",
+]
 
 [project.scripts]
 gabriel-chevallier = "gabriel_chevallier:main"
+dataset-users = "gabriel_chevallier.dataset_users:main"
+dataset-orders = "gabriel_chevallier.dataset_orders:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
