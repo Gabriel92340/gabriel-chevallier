@@ -7,6 +7,17 @@ models:
         data_tests:
           - unique
           - not_null
+      - name: username_normalized
+        description: Username without leading or trailing whitespace, in lowercase.
+        data_tests:
+          - not_null
+          - unique
+      - name: birthdate
+        description: Date of birth, NULL when it is later than the first order of the user.
+      - name: birthdate_is_valid
+        description: False when the original birthdate was later than the first order of the user.
+        data_tests:
+          - not_null
       - name: email
         data_tests:
           - unique
