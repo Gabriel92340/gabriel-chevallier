@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "duckdb>=1.5.6",
     "faker>=40.37.0",
 ]
 
@@ -15,6 +16,7 @@ dependencies = [
 gabriel-chevallier = "gabriel_chevallier:main"
 dataset-users = "gabriel_chevallier.dataset_users:main"
 dataset-orders = "gabriel_chevallier.dataset_orders:main"
+orders-report = "gabriel_chevallier.orders_report:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
