@@ -10,3 +10,8 @@ uv run dataset-users -h
 uv run dataset-orders -h
 #> usage: dataset-orders [-h] [-C COUNT-MIN] [-c COUNT_MAX] [-d DATE_FROM] [-o {csv,json,jsonline}] [-u COUNT_USERS]
 '''
+
+## Labs
+
+- [S3 and DuckDB](lab-s3-duckdb)
+- [dbt](lab-dbt)
