@@ -10,3 +10,5 @@ dbt_packages/
 logs/
 *.duckdb
 lab-pyspark-silver/warehouse/**/data/
+lab-polaris/polaris/deployment/charts/
+lab-polaris/polaris/deployment/Chart.lock
